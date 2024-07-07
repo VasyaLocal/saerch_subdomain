@@ -17,4 +17,3 @@ with open("subdomain.txt", "r") as subdomainlist:
         response = subdomain_search(subdomain)
         if response:
             print("Descovered subdomain-->" + subdomain)
-open("savesubdomain.txt", "w+")
